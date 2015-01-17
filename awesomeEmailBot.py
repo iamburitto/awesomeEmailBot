@@ -8,7 +8,6 @@ import mimetypes
 import zipfile
 from email import encoders
 
-
 #os
 import os
 
@@ -30,8 +29,6 @@ while(flag):
 	 # and current_time_isoformat < '10:17:15.0'
 	desired_time = current_time.replace(hour=12, minute=4, second=0, microsecond=0)
 	if(current_time > desired_time):
-		# flag = False
-
 
 		# Open a plain text file for reading.  For this example, assume that
 		# the text file contains only ASCII characters.
@@ -78,6 +75,3 @@ while(flag):
 
 		if current_time > desired_time:
 			break
-		# time.sleep(.0000001)
-		# if flag == False:
-		# 	break
